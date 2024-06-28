@@ -1,0 +1,90 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path" : "pages/login/login",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "Apex"
+			}
+		},
+		{
+			"path" : "pages/index/identify/identify",
+			"style" : 
+			{
+				"navigationBarTitleText" : "Ai-Pathfinder"
+			}
+		},{
+			"path" : "pages/index/identify2/identify2",
+			"style" : 
+			{
+				"navigationBarTitleText" : "Ai-Horizon"
+			}
+		},{
+			"path" : "pages/index/identify3/identify3",
+			"style" : 
+			{
+				"navigationBarTitleText" : "Ai-Octane"
+			}
+		},
+		{
+			"path" : "pages/legend/legend",
+			"style" : 
+			{
+				"navigationBarTitleText" : "Apex Legends Characters"
+			}
+		},
+		{
+			"path" : "pages/gun/gun",
+			"style" : 
+			{
+				"navigationBarTitleText" : "Apex Legends Guns"
+			}
+		},
+		{
+			"path" : "pages/badge/badge",
+			"style" : 
+			{
+				"navigationBarTitleText" : "Apex Legends Badges"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#55aa00",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			
+			{
+			"pagePath": "pages/legend/legend",
+			"iconPath": "static/legend.png",
+			"selectedIconPath": "static/legend2.png",
+			"text": "传奇"
+		},
+		{
+			"pagePath": "pages/gun/gun",
+			"iconPath": "static/gun.png",
+			"selectedIconPath": "static/gun2.png",
+			"text": "枪械"
+		},
+		{
+			"pagePath": "pages/badge/badge",
+			"iconPath": "static/badge2.png",
+			"selectedIconPath": "static/badge3.png",
+			"text": "徽章"
+		}]
+	}
+}
